@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="763e5e1a09e94bb184844fe545a20295" Name="Diagram1">
+        <EntityTypeShape EntityType="db_1Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_1Model.Авиакомпании" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_1Model.Договор" Width="1.5" PointX="7.5" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_1Model.Клиент" Width="1.5" PointX="9.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_1Model.Отель" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_1Model.Перелет" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_1Model.Страна" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_1Model.Тур" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="db_1Model.FK__Перелет__Авиаком__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="db_1Model.FK__Договор__Тур_id__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="db_1Model.FK__Тур__Отель_id__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="db_1Model.FK__Перелет__Пункт_Н__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="db_1Model.FK__Перелет__Страна___2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="db_1Model.FK__Тур__Авиарейса_В__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="db_1Model.FK__Тур__Авиарейса_П__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="db_1Model.FK__Тур__Страна_id__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="db_1Model.Турист" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
